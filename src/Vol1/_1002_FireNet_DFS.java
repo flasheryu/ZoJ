@@ -3,7 +3,7 @@ package Vol1;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class _1002_FireNet {
+public class _1002_FireNet_DFS {
 
 	private static Scanner in;
 	private static int max=0;

@@ -1,9 +1,8 @@
 package Vol1;
-//麻痹的println输出是带换行符的，次奥！！
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class _1004_AnagramsByStack {
+public class _1004_AnagramsByStack_DFS {
 
 	private static final Scanner in=new Scanner(System.in);
 	private static String src;

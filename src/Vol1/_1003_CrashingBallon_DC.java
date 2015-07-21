@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class _1003_CrashingBallon {
+public class _1003_CrashingBallon_DC {
 
 	private static int [] primes_100={2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97};
 			
@@ -212,7 +212,6 @@ class comb{
 					{
 						flag=true;
 						delList.add(al);
-//						System.out.println("第" + (i + 1) + "个跟第" + (j + 1) + "个重复，值是：" + temp);
 						break;
 					}
 					if(flag){flag=false;break;}
