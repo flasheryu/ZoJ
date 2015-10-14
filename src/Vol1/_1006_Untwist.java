@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 // Take care of the newline symbol.
 // The formula is ciphercode[i] = (plaincode[ki mod n] - i) mod 28. 
+// Another method to calculate plainCode[(i*k)%len]=(cipherCode[i]+i)%28.   
 public class _1006_Untwist {
 	private static Scanner in;
 
